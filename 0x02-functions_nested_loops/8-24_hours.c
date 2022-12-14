@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * jack_bauer -prints every minute of the day
- *
- * Return: always 0
- */
+* jack_bauer -prints every minute of the day
+*
+* Return: always 0
+*/
 
 void jack_bauer(void)
 
