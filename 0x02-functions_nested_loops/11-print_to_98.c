@@ -1,17 +1,24 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * main - check the code for ALX School students.
- * 
- * Return: Always 0.
- */
-int main(void)
+* print_to_98 - print all natural number from n to 98
+* @n: the number to start counting from n to 98
+* Return: Always 0
+*/
+
+void print_to_98(int n)
 {
-	print_times_table(3);
-	_putchar('\n');
-	print_times_table(5);
-	_putchar('\n');
-	print_times_table(98);
-	_putchar('\n')
-	print_times_table(12);
-	return (0);
+	while (n < 98)
+	{
+		printf("%i, ", n);
+		n++;
+	}
+	while (n > 98)
+	{
+		printf("%i, ", n);
+		n--;
+	}
+	printf("98");
+	putchar('\n');
 }
